@@ -77,4 +77,13 @@ class Year2018Test {
         assertEquals("47112", day.silver())
         assertEquals("28237", day.gold())
     }
+
+    @Test
+    fun testDay09() {
+        val rawInput = TestUtils.getInput(2018, 9)
+        val day = Day09(rawInput)
+
+        assertEquals("374287", day.silver())
+        assertEquals("3083412635", day.gold())
+    }
 }
