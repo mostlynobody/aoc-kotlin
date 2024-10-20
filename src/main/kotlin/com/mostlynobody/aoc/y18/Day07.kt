@@ -53,7 +53,6 @@ class Day07(rawInput: String) : Day(rawInput) {
         return clk.toString()
     }
 
-
     private data class TimedStep(
         val requiredSteps: MutableList<TimedStep> = mutableListOf(),
         val requiredTime: Int,
