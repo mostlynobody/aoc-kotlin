@@ -1,4 +1,4 @@
-﻿10package com.mostlynobody.aoc.y18
+﻿package com.mostlynobody.aoc.y18
 
 import com.mostlynobody.aoc.Day
 import com.mostlynobody.aoc.Vector2D
